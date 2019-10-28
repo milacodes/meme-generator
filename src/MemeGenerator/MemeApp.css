@@ -1,0 +1,9 @@
+.Container{
+	margin: 50px 20px;
+	background-color: lavender;
+	display: flex;
+	flex-direction: column;
+	outline: 1px solid cornflowerblue;
+	height: 100%;
+	padding-bottom: 35px;
+}

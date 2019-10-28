@@ -1,0 +1,30 @@
+.headerContainer{
+	/*outline: 1px dashed red;*/
+	color: blue;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	
+	padding: 0 20px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid darkslategray
+}
+
+.headerContainer img{
+	height: 90%;
+	margin-right: 30px;
+}
+
+.title{
+	color: black;
+	font-family: 'Mitr', sans-serif;
+	font-size: 3vw;
+	margin: 10px 0;
+}
+
+@media only screen and (max-width: 1000px){
+	.title{
+		font-size: 5vw;
+
+	}
+}
